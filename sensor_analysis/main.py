@@ -28,16 +28,8 @@ The steps performed by this script are:
   dataset.
 * Print the classification metrics and feature importances.
 
-This example is meant to illustrate the end‑to‑end workflow.  In a real
-project you would likely incorporate more sophisticated resampling
-techniques (e.g., SMOTE) and perform thorough cross‑validation before
-deploying the model.
-
-To run this script from the command line, ensure that ``dtl1.csv`` is present
-in the same directory and then execute:
-
 ```
-python anomaly_classifier_rf.py
+uv run main.py
 ```
 
 """
