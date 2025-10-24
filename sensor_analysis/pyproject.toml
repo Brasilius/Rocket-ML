@@ -1,0 +1,7 @@
+[project]
+name = "sensor-analysis"
+version = "0.1.0"
+description = "ML Classification based pyton script for identifying anomalies in flight."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = ["numpy","argparse","pandas","scikit-learn"]
